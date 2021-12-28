@@ -3,7 +3,7 @@ After becoming famous, the CodeBots decided to move into a new building together
 
 Given matrix, a rectangular matrix of integers, where each value represents the cost of the room, your task is to return the total sum of all rooms that are suitable for the CodeBots (ie: add up all the values that don't appear below a 0).
 */
-function matrixElementsSum(matrix) {
+function solution(matrix) {
     var h = matrix.length;
     var l = matrix[0].length;
     for(var i = 0; i<h; i++){
