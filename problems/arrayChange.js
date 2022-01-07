@@ -16,4 +16,4 @@ function solution(inputArray) {
        }
        return c;
    }
-   
+//    
